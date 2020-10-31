@@ -1,0 +1,137 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background-color: #eee;
+  font-family: 'Trispace', sans-serif;
+  color: #00adb5;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+h1 {
+  color: #222831;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 55px;
+  padding: 55px;
+  border: 45px;
+  font-size: 90px;
+
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 55px;
+  padding: 55px;
+  border: 45px;
+  color: #222831;
+
+
+}
+
+a {
+  color: #eee;
+  text-decoration: none
+}
+
+.london {
+  color: #eee;
+  text-decoration: none
+}
+
+i:hover {
+  color: #222831;
+
+}
+
+img {
+  object-fit:  cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  width: 300px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 55px;
+  padding: 55px;
+  border: 45px;
+  color: #eee
+
+}
+
+p{
+  margin: 55px;
+  padding: 55px;
+  border: 45px;
+  color: #eee;
+}
+
+div {
+  border-radius: 9px;
+  b
+}
+
+
+div .container  {
+  background-color: #00adb5;
+  border: 10px solid #222831;
+  box-shadow: 5px 5px 12px #393e46;
+  margin: 55px;
+  padding: 55px;
+}
+
+
+ul  {
+  list-style: none;
+  overflow: hidden;
+   margin: 40px;
+  padding: 30px;
+  border: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#socialmedia{
+  text-align: center;
+}
+
+
+
+ li {
+  float: left;
+  margin: 40px;
+  padding: 50px;
+  border : 30px;
+
+
+}
+
+.hello {
+  text-align: center;
+  display: column-flex;
+
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+ .container {
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
